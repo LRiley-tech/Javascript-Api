@@ -3,10 +3,10 @@ const bodyParser = require('body-parser');
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Lee@nge1o',
-    database: 'todo'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 
 try {
